@@ -177,3 +177,64 @@ button img{
     line-height: 16px;
 
 }
+#knowledge{
+    display: flex;
+    width: 71%;
+    max-width: 1360px;
+    margin: 0 auto;
+    gap: 60px;
+    padding: 120px 0;
+}
+#knowledge .knowledge-img{
+    /* width: 660px;
+    height: 400px;
+    margin: 0 auto;
+    text-align: left; */
+    width: 100%;
+    max-width: 500px;
+}
+#knowledge .knowledge-containe{
+    width: 740px;
+    height: 397px;
+    margin: 0 auto;
+
+}
+.knowledge-containe{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+#knowledge .knowledge-containe h6{
+    height: 20px;
+    color: #469165;
+    font-weight: 500px;
+    font-size: 16px;
+    text-align: left;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+#knowledge .knowledge-containe h1{
+    text-align: center;
+    color: #001931;
+    font-size: 48px;
+    margin-bottom: 16px;
+}
+#knowledge .knowledge-containe p{
+    color: #627382;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 40px;
+}
+#knowledge .knowledge-containe .list-itame{
+    margin-bottom: 16px;
+    color: #001931;
+    font-size: 13px;
+    line-height: 24px;
+}
+.knowledge-containe .list-itame ul{
+    list-style: none;
+}
+.knowledge-containe .list-itame ul li img{
+    padding: 1.88px;
+    margin-bottom: px;
+}
