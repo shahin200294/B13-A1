@@ -65,6 +65,9 @@ button{
     font-weight: bold;
     cursor: pointer;
 }
+button img{
+    text-align: right;
+}
 .btn{
     background-color: transparent;
     border: 1px solid #f4ecec;
@@ -97,11 +100,7 @@ button{
     justify-content: center;
 
 }
-.hero-bg h1{
 
-}
-
-    
 .hero-bg h1 span{
     color: #ffffff;
     text-transform: capitalize;
@@ -159,6 +158,13 @@ button{
     /* border: 1px solid red; */
     box-sizing: 0, 6, 10, 0,#000000;
     max-width: 322px;
+}
+.structure-card img{
+    background-color: #F95555;
+    color: #FFFFFF;
+    border-radius: 50%;
+    padding: 14px;
+    margin-bottom: 16px;
 }
 .structure-card h3{
     font-size: 24px;
