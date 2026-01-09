@@ -238,3 +238,33 @@ button img{
     padding: 1.88px;
     margin-bottom: px;
 }
+
+#early{
+    width: 71%;
+    max-width: 1600px;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    background-color: #F7F6F2;
+    height: 385px;
+    justify-content: center;
+
+}
+#early .early-contant{
+    padding-top: 80px;
+}
+#early .early-contant h1{
+    color: #001931;
+    margin-bottom: 16px;
+}
+#early .early-contant p{
+    color: #627382;
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+.free{
+
+    color: #627382;
+    font-size: 16px;
+    margin-top: 24px; 
+}
