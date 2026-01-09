@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* google-font */
+
+.font-inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  
+}
+/* navigation bar */
+nav{
+    display: flex;
+    width: 100%;
+    /* max-width: 1600px; */
+    height: 92px;
+    /* border: 2px solid red; */
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    padding: 16px 120px;
+}
+.logo{
+    width: 139px;
+    height: 60px;
+    justify-content: flex-start;
+    
+}
+.menu{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 32px;
+    list-style: none;
+    
+}
+.menu ul  li{
+    font-style: medium;
+    font-size: 16px;
+    letter-spacing: 0%;
+    font-weight: 500px;
+    text-transform: capitalize;
+    width: 102px;
+    height: 24px;
+
+}
+ul li a{
+    text-decoration: none;
+    color: #000000;
+
+}
+
+button{
+    background-color: #30B868;
+    color: rgba(255, 255, 255, 1);
+    padding: 16px 16px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn{
+    background-color: none;
+    color: rgba(255, 255, 255, 1);
+    padding: 16px 16px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    gap: 16px;
+}
+.hero-bg .btn2{
+    color: #469165;
+    background-color: #fff;
+    padding: 8px 8px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 24px;
+    gap: 16px;
+}
+.hero-bg{
+    background-image:url(../assets/hero-bg.png);
+    align-items: center;
+    padding: 70px;
+    /* width: 2042px; */
+    height: 500px;
+    text-align: center;
+    justify-content: center;
+
+}
+.hero-bg h1{
+
+}
+
+    
+.hero-bg h1 span{
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 24px;
+
+}
+.hero-bg h1 .span2{
+    color: #30B868;
+}
+
+.hero-bg p{
+    font-weight: 400px;
+    font-size: 18px;
+    line-height: 24px;
+    color: #ffffff;
+    margin: 24px 0;
+    height: 60px;
+}
+ 
