@@ -65,6 +65,13 @@ button{
     font-weight: bold;
     cursor: pointer;
 }
+button:hover{
+    background-color: #001931d6;
+    /* animation-duration: 0.5s; */
+    transition: 0.8s;
+    
+
+}
 button img{
     text-align: right;
 }
@@ -89,6 +96,17 @@ button img{
     font-weight: bold;
     margin-bottom: 24px;
     gap: 16px;
+}
+.btn2 img{
+    /* color: #30B868; */
+    font-size: 10px;
+    background-color: #30B868;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 .hero-bg{
     background-image:url(../assets/hero-bg.png);
@@ -267,4 +285,23 @@ button img{
     color: #627382;
     font-size: 16px;
     margin-top: 24px; 
+}
+#footer{
+    background-color: #001931;
+    height: 300px;
+
+}
+#footer .footer-logo{
+    padding-bottom: 110px;
+    display: flex;
+    margin: auto;
+}
+#footer .footer-logo .socail-link{
+    /* display: flex;
+    display: inline-block; */
+}
+#footer h6{
+    color: #fff;
+    text-align: center;
+    margin-top: 24px;
 }
